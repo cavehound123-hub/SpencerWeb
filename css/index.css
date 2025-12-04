@@ -1,0 +1,792 @@
+/*-- CSS Reset --*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*-- My design --*/
+.site-logo {
+  /* Control the size */
+  width: 60px; /* Adjust as needed */
+  height: auto; /* Maintains the aspect ratio */
+
+  /* Add some spacing */
+  margin:0px; 
+
+  /* You could also center it */
+ 
+  margin-left: 0px;
+  margin-right: auto;
+  justify-content: left;
+  
+}
+
+/*--button work---*/
+.a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button-3 {
+  color: black; /* button text color */
+  outline: none;
+  background: transparent;
+  border: solid #fcd55a 7px;
+  letter-spacing: 0.0625em;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font: bold 40px "Bitter", sans-serif; /* use google font */
+  line-height: 5;
+  position: relative;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  text-decoration: none; /* remove underline if using A instead of BUTTON tag */
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+.myButton2 {
+  max-width: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  min-width: 50px;
+  background-color: #f46518;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border: 0px solid #fcd55a;
+  display: inline-block;
+  color: #fef8a6;
+  font-family: "Monoton", sans-serif;
+  font-size: 80px;
+  padding: 200px 30px;
+  text-decoration: none;
+  height: 500px;
+  width: 400px;
+  text-align: center;
+}
+.myButton2:hover {
+  background-color: #12415e;
+  color: #fcd55a;
+  box-shadow: 30px 1px 0px 0px #0dfbcb;
+  transition: 0.3s;
+}
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}
+.myButtonR {
+  max-width: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  min-width: 50px;
+  background-color: #f46518;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border: 0px solid #fcd55a;
+  display: inline-block;
+  color: #fef8a6;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 80px;
+  padding: 200px 30px;
+  text-decoration: none;
+  height: 500px;
+  width: 400px;
+  text-align: center;
+}
+.myButtonR:hover {
+  background-color: #12415e;
+  color: #fcd55a;
+  box-shadow: 30px 1px 0px 0px #0dfbcb;
+  transition: 0.3s;
+}
+.myButtonR:active {
+  position: relative;
+  top: 1px;
+}
+.myButtonM {
+  max-width: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  min-width: 50px;
+  background-color: #f46518;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border: 0px solid #fcd55a;
+  display: inline-block;
+  color: #fef8a6;
+  font-family: "Barrio", system-ui;
+  font-size: 80px;
+  padding: 200px 30px;
+  text-decoration: none;
+  height: 500px;
+  width: 400px;
+  text-align: center;
+  justify-content: flex-start;
+}
+.myButtonM:hover {
+  background-color: #12415e;
+  color: #fcd55a;
+  box-shadow: 30px 1px 0px 0px #0dfbcb;
+  transition: 0.3s;
+}
+.myButtonM:active {
+  position: relative;
+  top: 1px;
+}
+/*---------------------------------
+
+Video
+
+----------------------------------*/
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  max-height: 750px;
+  width: 99vw;
+  overflow: hidden;
+  background: #e7a325;
+}
+
+#video {
+  margin-left: 0px;
+  width: 100%;
+  margin-bottom: -1em;
+}
+
+#play-pause {
+  position: absolute;
+  bottom: 5%;
+  right: 70px;
+  padding-top: 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: transparent;
+  margin: auto;
+  z-index: 1;
+}
+
+#play-pause-center {
+  position: absolute;
+  top: 40%;
+  right: 45%;
+  border: none;
+  border-radius: 40px;
+  background-color: transparent;
+  margin: auto;
+  z-index: 1;
+}
+
+#play-pause:hover {
+  cursor: pointer;
+}
+
+.video-message {
+  color: #fff;
+}
+.work {
+  background-color: #bf3d04;
+  height: auto;
+  box-sizing: border-box;
+}
+.video-container2 {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100vw;
+  width: 50vw;
+  overflow: hidden;
+  background: #e7a325;
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+  margin-top: 50px;
+}
+
+.video-container2 {
+  /* *** KEY CHANGES HERE *** */
+  margin-left: 0px;
+  max-width: 1000px; /* FIXED WIDTH */
+  max-height: 350px; /* FIXED HEIGHT (450px maintains a 16:9 aspect ratio with 800px) */
+  margin-bottom: -1em;
+}
+/*----experiment topnav----*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #bf3d04;
+  overflow: hidden;
+  padding: 15px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #12415e;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: #e7a325;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 40px;
+}
+.logo {
+  display: inline-block;
+  justify-content: right;
+  background-color: #f9f9f9;
+  width: 75px;
+  height: 75px;
+}
+.topnav a:hover {
+  color: #fcd55a;
+  background-color: #12415e;
+  box-shadow: 8px 8px #0dfbcb;
+  transition: 0.3s;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: transparent;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+/* Media Query for screens 768px wide or less (common mobile breakpoint) */
+@media (max-width: 1500px) {
+  .work {
+    height: 100dvh; 
+    /* 
+      100dvh ensures the height dynamically fills the available 
+      viewport space, accounting for mobile browser address bars.
+      You can use 100vh as a fallback if needed.
+    */
+  }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1000px) {
+  .topnav a,
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 2000px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.bottom {
+  background-color: #502006;
+  height: auto;
+  width: auto;
+  color: transparent;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  /* Hides ALL elements with the class 'myButton2' */
+  .myButton2,
+  /* Hides the main button inside the 'dropdown' container */
+  .dropdown .dropbtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 1300px) {
+  /* Hides ALL elements with the class 'myButton2' */
+  .myButtonR,
+  /* Hides the main button inside the 'dropdown' container */
+  .dropdown .dropbtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 1300px) {
+  /* Hides ALL elements with the class 'myButton2' */
+  .myButtonM,
+  /* Hides the main button inside the 'dropdown' container */
+  .dropdown .dropbtn {
+    display: none;
+  }
+}
+/* Responsive for tablets and phones */
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+/* Styles for mobile devices (default) */
+.work-item {
+  width: 100%; /* Takes up full width on small screens */
+  margin-bottom: 20px;
+}
+
+/* Styles for screens wider than 768px (tablets/desktops) */
+@media (min-width: 768px) {
+  /* You would typically put content into a flexbox container here */
+  .work-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .work-item {
+    width: 30%; /* Takes up only 30% of the width on larger screens */
+  }
+}
+/*---------stills page-----------
+
+
+-----------------------------------*/
+
+#box1 {
+  
+  width: 300px;
+  height: 200px;
+  background-color: #0dfbcb;
+  border: solid #502006 10px;
+  margin-inline-start: 15px;
+  margin-block-start: 20px;
+}
+#flexbox {
+  background-color: #311a10;
+  margin: 10px;
+}
+
+.img src {
+  width: 200px;
+  height: 300px;
+}
+
+.gallery_title h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+  background-color: #265c7e;
+  color: #fcd55a;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Always 4 columns */
+  gap: 20px;
+  background-color: #d88b44;
+  padding: 30px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+/* --- Media Query for very small screens (e.g., phones narrower than 480px) --- */
+@media screen and (max-width: 480px) {
+    
+  /* Force the gallery into a single column on tiny phones */
+  .gallery {
+      /* This overrides the 'auto-fit' rule applied earlier */
+      grid-template-columns: 1fr; 
+      padding: 15px; /* Reduce padding on small screens */
+  }
+
+  /* Reduce font size for gallery titles on small screens */
+  .overlay h3 {
+      font-size: 0.8rem;
+  }
+  
+  /* Center the individual box on small screens */
+  #box1 {
+      margin: 20px auto; 
+  }
+}
+/*________contact page__________
+
+
+
+____________________________*/
+.contact {
+  display: flex; /* Use flexbox to put items side-by-side by default */
+  align-items: center; /* Vertically center the items if they have different heights */
+  gap: 20px; /* Adds space between the image and the text */
+
+  /* --- Background Image Properties --- */
+  background-image: url(/images/contact.png); /* 1. Specify the image path */
+  background-repeat: no-repeat;            /* 2. Prevents the image from tiling */
+  background-size: cover;                  /* 3. Scales the image to cover the entire container */
+  background-position: center;             /* 4. Centers the image within the container */
+  min-height: 100vh; /* Example: ensure the container takes up the full viewport height */
+  width: 100%;       /* Ensure the container takes up the full viewport width */
+}
+
+.contactImage {
+  /* Use percentage width to scale with the screen/container size */
+  width: 100%; 
+  /* Sets the maximum size for large screens */
+  max-width: 800px; 
+  
+  /* --- KEY CHANGES BELOW --- */
+  /* Remove centering margins. Set margin-left to 0 or remove the margin line completely */
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 50px; /* Optional: ensures no right margin pushes it off screen */
+  /* You can use a more concise margin declaration if needed: margin: 0 0 0 0; */
+  
+  /* Maintain the desired border radius */
+  border-top-right-radius: 200px;
+  
+  /* Allow the height to adjust automatically to maintain aspect ratio */
+  height: auto; 
+  
+  /* Ensure the image itself scales within the container */
+  display: block; 
+max-height: auto;
+}
+.contactText{
+  background-color: #12415e;
+  color: #e7a325;
+  display: flex;
+  justify-content: center;
+  /* Reduced max-width here so it flows better side-by-side with the image */
+  max-width: auto; 
+  max-height: auto;
+  font-size: 50px;
+  /* Added margin below for mobile view separation */
+  margin-bottom: 20px; 
+  
+}
+
+
+/* Media Query for screens smaller than 600px (e.g., phones) */
+@media (max-width: 1500px) {
+  /* Add this rule to stack the items vertically on small screens */
+  .contact {
+    flex-direction: column; /* This pushes the text below the image */
+  }
+
+  .contactImage {
+      max-width: 100%; /* Ensure the image spans the full width on mobile */
+  }
+
+  
+
+  .contactText {
+    /* Adjust text size for readability on mobile */
+    margin-left: 0;
+    font-size: 20px; 
+    text-align: center;
+    width: 100%; /* make this stuff flow better */
+    max-width: 100%; /* Ensure the text container uses full width */
+  }
+}
+
+
+
+/*________video_gallery_______
+
+
+____________________________*/
+.VideoGal_title h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+  background-color: #265c7e;
+  color: #fcd55a;
+}
+.videogallery {
+  background-color: #f7a050;
+  height: fit-content;
+}
+.vid {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Added a small gap for spacing between videos */
+  width: 90%; /* Changed to 90% of the viewport width */
+  margin: 0 auto; /* Centers the container on the page */
+  flex-wrap: wrap;
+  padding: 15px; /* Reduced padding for better responsiveness */
+  border: solid #502006 0px;
+}
+
+.vid video {
+  /*  Video width is now a percentage of the container's width */
+  width: 48%; 
+  height: auto; /* Maintains the video's aspect ratio */
+  /* Ensures the video scales down cleanly */
+  max-width: 100%; 
+}
+.vid h2{
+  font-size: 50px;
+}
+.vid_text {
+  margin-left: 50px;
+  font-size: 20px;
+}
+/* MEIDA QUERY for small screens and stuff (e.g., tablets and phones) 
+
+
+------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .vid {
+    /* Container fills more of the screen on mobile */
+    width: 95%; 
+    justify-content: center; /* Center the single video item */
+  }
+
+  .vid video {
+    /* Force each video to take up almost the full width of the container */
+    width: 100%; 
+    margin-bottom: 10px; /* vertical space between stacked videos */
+  }
+
+  .vid_text {
+    /* Adjust text size for readability on mobile */
+    margin-left: 0;
+    font-size: 20px; 
+    text-align: center;
+    width: 100%; /* make this stuff flow better */
+  }
+}
+/*------dont touch---
+
+
+
+
+
+
+
+:}
+
+
+
+
+
+
+
+
+---------------------------*/

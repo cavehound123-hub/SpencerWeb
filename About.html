@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spencer Guevara</title>
+  <!--css link-->
+  <link type="text/css" rel="stylesheet" href="css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Monoton&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Marbles" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+</head>
+<header>
+  <div class="topnav" id="myTopnav">
+    <!-- Image is now separate from the anchor tags -->
+    <img src="images/logo_2.png" alt="Company Logo" class="site-logo">
+    <a href="index.html" class="active">Home</a>
+    <!-- Removed redundant "topnav a" classes -->
+    <a href="stills.html">Stills</a>
+    <a href="contact.html">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <a href="About.html">Video</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+  </div>
+</header>
+<main>
+
+  <body>
+    <div class="VideoGal_title">
+      <h1>Video Media Art</h1>
+    </div>
+    <div class="videogallery">
+      <div class="vid">
+        <video src="videos/blob.mp4" controls></video>
+        <div class="vid_text">
+          <h2>The Blob</h2>
+          <p>This is a seamingly jelly like blob animation using after effects</p>
+        </div>
+      </div>
+      <div class="vid">
+        <video src="videos/LogoW.mp4" controls></video>
+        <div class="vid_text">
+          <h2>Bubbly Logo</h2>
+          <p>After effects animation creating a bubbly logo</p>
+        </div>
+      </div>
+      <div class="vid">
+        <video src="videos/Marble.mp4" controls></video>
+        <div class="vid_text">
+          <h2>Marbler</h2>
+          <p>this is a marble</p>
+        </div>
+      </div>
+      <div class="vid">
+        <video src="videos/Tata.mp4" controls></video>
+        <div class="vid_text">
+          <h2>Tata</h2>
+          <p>A test ad for a teleportaion food device</p>
+        </div>
+      </div>
+      <div class="vid">
+        <video src="videos/motionBub.mp4" controls></video>
+        <div class="vid_text">
+          <h2>Bub</h2>
+          <p>a fish eye lens effect for a logo</p>
+        </div>
+      </div>
+      <p>content</p>
+
+    </div>
+
+    <footer>
+      <div class="bottom">Bar</div>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+    </script>
+  </body>
+</main>
+
+</html>
